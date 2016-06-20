@@ -49,13 +49,10 @@ class PipelineContext
 		 it.level = java.util.logging.Level.FINEST;
 		 }
 		 */
+		//		
 
-		//		engines = new JsonSlurper().parseText(new URL(
-		//				'https://gist.githubusercontent.com/reckart/990d75ee230dbb39c30b/raw/ad29ba37ebb77e3f5f9f47fb32c3def15c63954c/engines.json').text);
-		engines = new JsonSlurper().parse(new File("src/main/resources/PipelineContextJSON/engines.json"));
-		//		formats = new JsonSlurper().parseText(new URL(
-		//				'https://gist.githubusercontent.com/reckart/990d75ee230dbb39c30b/raw/75b9c10c74454c18b8507aed041b20b6e1322a84/formats.json').text);
-		formats  = new JsonSlurper().parse(new File("src/main/resources/PipelineContextJSON/formats.json"));
+		engines = new JsonSlurper().parse(this.getClass().getResourceAsStream("/PipelineContextJSON/engines.json"));
+		formats  = new JsonSlurper().parse(this.getClass().getResourceAsStream("/PipelineContextJSON/formats.json"))
 	}
 
 	def lazyBootComplete = false;
