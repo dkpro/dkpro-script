@@ -61,6 +61,11 @@ class PipelineContext
 	// the script, then we cannot configure the resolved before
 	def lazyBoot() {
 		if (!lazyBootComplete) {
+            // Currently needed because DKPro Core 1.9.0-SNAPSHOT depends on UIMA 2.9.0-SNAPSHOT
+            Grape.addResolver(
+                name:'apache-snapshots',
+                root:'http://repository.apache.org/snapshots')
+    
 			if (VERSION.endsWith('-SNAPSHOT')) {
 				Grape.addResolver(
 						name:'ukp-oss-snapshots',
