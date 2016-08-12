@@ -34,7 +34,10 @@ Parameters
   Specify the suffix of output files. Default value <code>.txt</code>. If the suffix is not needed, provide an empty string as value.
 
 * targetLocation (String) 
-  Target location
+  Target location. If this parameter is not yet, data is written to stdout.
+
+* singularTarget (Boolean) 
+  Treat target location as a single file name. This is particularly useful if only a single input file is processed and the result should be written to a pre-defined output file instead of deriving the file name from the document URI or document ID. It can also be useful if the user wishes to force multiple input files to be written to a single target file. The latter case does not work for all formats (e.g. binary, XMI, etc.), but can be useful, e.g. for Conll-based formats. This option has no effect if the target location points to an archive location (ZIP/JAR). The #PARAM_COMPRESSION is respected, but does not automatically add an extension. The #PARAM_STRIP_EXTENSION has no effect as the original extension is not preserved.
 
 * compression (String) 
   Choose a compression method. (default: CompressionMethod#NONE)
@@ -47,3 +50,6 @@ Parameters
 
 * escapeDocumentId (Boolean) 
   URL-encode the document ID in the file name to avoid illegal characters (e.g. \, :, etc.)
+
+* overwrite (Boolean) 
+  Allow overwriting target files (ignored when writing to ZIP archives).
