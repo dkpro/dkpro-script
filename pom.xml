@@ -35,6 +35,11 @@
     <url>https://www.ukp.tu-darmstadt.de/</url>
     <name>Ubiquitous Knowledge Processing (UKP) Lab, Technische Universität Darmstadt</name>
   </organization>
+  <developers>
+    <developer>
+      <organization>The DKPro Script Team</organization>
+    </developer>
+  </developers>
   <issueManagement>
     <url>https://github.com/dkpro/dkpro-script/issues</url>
     <system>GitHub Issues</system>
