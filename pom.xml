@@ -15,8 +15,7 @@
   See the License for the specific language governing permissions and
   limitations under the License.
 -->
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>org.dkpro</groupId>
@@ -25,7 +24,7 @@
   </parent>
   <groupId>org.dkpro.script</groupId>
   <artifactId>dkpro-script</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.1.0</version>
   <packaging>pom</packaging>
   <name>DKPro Script</name>
   <url>https://dkpro.github.io/dkpro-script/</url>
@@ -72,7 +71,7 @@
     <connection>scm:git:https://github.com/dkpro/dkpro-script.git</connection>
     <developerConnection>scm:git:https://github.com/dkpro/dkpro-script.git</developerConnection>
     <url>https://github.com/dkpro/dkpro-script</url>
-    <tag>HEAD</tag>
+    <tag>dkpro-script-0.1.0</tag>
   </scm>
   <properties>
     <groovy.version>2.4.7</groovy.version>
