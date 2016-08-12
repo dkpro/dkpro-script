@@ -49,11 +49,9 @@ Please cite DKPro Core itself as:
 License
 -------
 
-DKPro Script itself is licensed under the [Apache Software License (ASL) version 2][3]. Please respect the licenses of DKPro Core and the integrated components as stated below:
+DKPro Script itself is licensed under the [Apache Software License (ASL) version 2][3]. 
 
-All components in DKPro Core ASL are licensed under the [Apache Software License (ASL) version 2][3] - but their dependencies may not be:
-
-**IMPORTANT LICENSE NOTE** - It must be pointed out that while the component's source code itself is licensed under the ASL, individual components might make use of third-party libraries or products that are not licensed under the ASL, such as LGPL libraries or libraries which are free for research but may not be used in commercial scenarios. Please be aware of the third party licenses and respect them.
+**IMPORTANT LICENSE NOTE** - Please respect the licenses of DKPro Core and the integrated components. Individual components might make use of third-party libraries or products that are not licensed under other licenses such as GPL, or only free for research but not to be used in commercial scenarios. Please be aware of the third party licenses and respect them.
 
 [1]: https://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Group_UKP/OIAF4HLT2014DKProCore_cameraready.pdf
 [2]: https://www.ukp.tu-darmstadt.de/publications/details/?no_cache=1&tx_bibtex_pi1%5Bpub_id%5D=TUD-CS-2014-0864&type=99&tx_bibtex_pi1%5Bbibtex%5D=yes
