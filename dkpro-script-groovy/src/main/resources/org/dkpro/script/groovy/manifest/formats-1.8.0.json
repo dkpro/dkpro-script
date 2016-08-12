@@ -1,0 +1,80 @@
+{
+    "BlikiWikipedia": {
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.io.bliki-asl",
+        "version": "1.8.0",
+        "readerClass": "de.tudarmstadt.ukp.dkpro.core.io.bliki.BlikiWikipediaReader"
+    },
+    "Html": {
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.io.html-asl",
+        "version": "1.8.0",
+        "readerClass": "de.tudarmstadt.ukp.dkpro.core.io.html.HtmlReader"
+    },
+    "Jdbc": {
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.io.jdbc-asl",
+        "version": "1.8.0",
+        "readerClass": "de.tudarmstadt.ukp.dkpro.core.io.jdbc.JdbcReader"
+    },
+    "WikipediaArticleInfo": {
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.io.jwpl-asl",
+        "version": "1.8.0",
+        "readerClass": "de.tudarmstadt.ukp.dkpro.core.io.jwpl.WikipediaArticleInfoReader"
+    },
+    "WikipediaArticle": {
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.io.jwpl-asl",
+        "version": "1.8.0",
+        "readerClass": "de.tudarmstadt.ukp.dkpro.core.io.jwpl.WikipediaArticleReader"
+    },
+    "WikipediaDiscussion": {
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.io.jwpl-asl",
+        "version": "1.8.0",
+        "readerClass": "de.tudarmstadt.ukp.dkpro.core.io.jwpl.WikipediaDiscussionReader"
+    },
+    "WikipediaLink": {
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.io.jwpl-asl",
+        "version": "1.8.0",
+        "readerClass": "de.tudarmstadt.ukp.dkpro.core.io.jwpl.WikipediaLinkReader"
+    },
+    "WikipediaPage": {
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.io.jwpl-asl",
+        "version": "1.8.0",
+        "readerClass": "de.tudarmstadt.ukp.dkpro.core.io.jwpl.WikipediaPageReader"
+    },
+    "WikipediaQuery": {
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.io.jwpl-asl",
+        "version": "1.8.0",
+        "readerClass": "de.tudarmstadt.ukp.dkpro.core.io.jwpl.WikipediaQueryReader"
+    },
+    "WikipediaRevisionPair": {
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.io.jwpl-asl",
+        "version": "1.8.0",
+        "readerClass": "de.tudarmstadt.ukp.dkpro.core.io.jwpl.WikipediaRevisionPairReader"
+    },
+    "WikipediaRevision": {
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.io.jwpl-asl",
+        "version": "1.8.0",
+        "readerClass": "de.tudarmstadt.ukp.dkpro.core.io.jwpl.WikipediaRevisionReader"
+    },
+    "WikipediaTemplateFilteredArticle": {
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.io.jwpl-asl",
+        "version": "1.8.0",
+        "readerClass": "de.tudarmstadt.ukp.dkpro.core.io.jwpl.WikipediaTemplateFilteredArticleReader"
+    },
+    "CasDump": {
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.testing-asl",
+        "version": "1.8.0",
+        "writerClass": "de.tudarmstadt.ukp.dkpro.core.testing.dumper.CasDumpWriter"
+    }
+}

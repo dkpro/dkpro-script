@@ -1,0 +1,86 @@
+{
+    "ArktweetPosTagger": {
+        "name": "ArktweetPosTagger",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.arktools-gpl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.arktools.ArktweetPosTagger"
+    },
+    "ArktweetTokenizer": {
+        "name": "ArktweetTokenizer",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.arktools-gpl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.arktools.ArktweetTokenizer"
+    },
+    "ColognePhoneticTranscriptor": {
+        "name": "ColognePhoneticTranscriptor",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.commonscodec-asl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.commonscodec.ColognePhoneticTranscriptor"
+    },
+    "DoubleMetaphonePhoneticTranscriptor": {
+        "name": "DoubleMetaphonePhoneticTranscriptor",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.commonscodec-asl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.commonscodec.DoubleMetaphonePhoneticTranscriptor"
+    },
+    "MetaphonePhoneticTranscriptor": {
+        "name": "MetaphonePhoneticTranscriptor",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.commonscodec-asl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.commonscodec.MetaphonePhoneticTranscriptor"
+    },
+    "SoundexPhoneticTranscriptor": {
+        "name": "SoundexPhoneticTranscriptor",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.commonscodec-asl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.commonscodec.SoundexPhoneticTranscriptor"
+    },
+    "CompoundAnnotator": {
+        "name": "CompoundAnnotator",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.decompounding-asl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.decompounding.uima.annotator.CompoundAnnotator"
+    },
+    "NGramAnnotator": {
+        "name": "NGramAnnotator",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.ngrams-asl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.ngrams.NGramAnnotator"
+    },
+    "NorvigSpellingCorrector": {
+        "name": "NorvigSpellingCorrector",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.norvig-asl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.norvig.NorvigSpellingCorrector"
+    },
+    "DocumentMetaDataStripper": {
+        "name": "DocumentMetaDataStripper",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.testing-asl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.testing.DocumentMetaDataStripper"
+    },
+    "DependencyDumper": {
+        "name": "DependencyDumper",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.testing-asl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.testing.dumper.DependencyDumper"
+    },
+    "TagsetDescriptionStripper": {
+        "name": "TagsetDescriptionStripper",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.testing-asl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.testing.TagsetDescriptionStripper"
+    }
+}
