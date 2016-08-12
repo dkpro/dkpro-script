@@ -13,6 +13,62 @@
         "version": "1.8.0",
         "class": "de.tudarmstadt.ukp.dkpro.core.arktools.ArktweetTokenizer"
     },
+    "BerkeleyParser": {
+        "name": "BerkeleyParser",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.berkeleyparser-gpl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.berkeleyparser.BerkeleyParser"
+    },
+    "ApplyChangesAnnotator": {
+        "name": "ApplyChangesAnnotator",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.castransformation-asl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.castransformation.ApplyChangesAnnotator"
+    },
+    "Backmapper": {
+        "name": "Backmapper",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.castransformation-asl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.castransformation.Backmapper"
+    },
+    "ClearNlpLemmatizer": {
+        "name": "ClearNlpLemmatizer",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.clearnlp-asl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.clearnlp.ClearNlpLemmatizer"
+    },
+    "ClearNlpParser": {
+        "name": "ClearNlpParser",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.clearnlp-asl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.clearnlp.ClearNlpParser"
+    },
+    "ClearNlpPosTagger": {
+        "name": "ClearNlpPosTagger",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.clearnlp-asl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.clearnlp.ClearNlpPosTagger"
+    },
+    "ClearNlpSegmenter": {
+        "name": "ClearNlpSegmenter",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.clearnlp-asl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.clearnlp.ClearNlpSegmenter"
+    },
+    "ClearNlpSemanticRoleLabeler": {
+        "name": "ClearNlpSemanticRoleLabeler",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.clearnlp-asl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.clearnlp.ClearNlpSemanticRoleLabeler"
+    },
     "ColognePhoneticTranscriptor": {
         "name": "ColognePhoneticTranscriptor",
         "groupId": "de.tudarmstadt.ukp.dkpro.core",
@@ -48,6 +104,195 @@
         "version": "1.8.0",
         "class": "de.tudarmstadt.ukp.dkpro.core.decompounding.uima.annotator.CompoundAnnotator"
     },
+    "DictionaryAnnotator": {
+        "name": "DictionaryAnnotator",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.dictionaryannotator-asl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.dictionaryannotator.DictionaryAnnotator"
+    },
+    "SemanticFieldAnnotator": {
+        "name": "SemanticFieldAnnotator",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.dictionaryannotator-asl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.dictionaryannotator.semantictagging.SemanticFieldAnnotator"
+    },
+    "TfidfAnnotator": {
+        "name": "TfidfAnnotator",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.frequency-asl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.frequency.tfidf.TfidfAnnotator"
+    },
+    "TfidfConsumer": {
+        "name": "TfidfConsumer",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.frequency-asl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.frequency.tfidf.TfidfConsumer"
+    },
+    "GateLemmatizer": {
+        "name": "GateLemmatizer",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.gate-gpl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.gate.GateLemmatizer"
+    },
+    "HepplePosTagger": {
+        "name": "HepplePosTagger",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.gate-gpl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.gate.HepplePosTagger"
+    },
+    "HunPosTagger": {
+        "name": "HunPosTagger",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.hunpos-asl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.hunpos.HunPosTagger"
+    },
+    "CorrectionsContextualizer": {
+        "name": "CorrectionsContextualizer",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.jazzy-asl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.jazzy.CorrectionsContextualizer"
+    },
+    "JazzyChecker": {
+        "name": "JazzyChecker",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.jazzy-asl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.jazzy.JazzyChecker"
+    },
+    "JTokSegmenter": {
+        "name": "JTokSegmenter",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.jtok-asl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.jtok.JTokSegmenter"
+    },
+    "LangDetectLanguageIdentifier": {
+        "name": "LangDetectLanguageIdentifier",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.langdetect-asl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.langdetect.LangDetectLanguageIdentifier"
+    },
+    "CjfNormalizer": {
+        "name": "CjfNormalizer",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.languagetool-asl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.languagetool.CjfNormalizer"
+    },
+    "LanguageToolChecker": {
+        "name": "LanguageToolChecker",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.languagetool-asl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.languagetool.LanguageToolChecker"
+    },
+    "LanguageToolLemmatizer": {
+        "name": "LanguageToolLemmatizer",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.languagetool-asl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.languagetool.LanguageToolLemmatizer"
+    },
+    "LanguageToolSegmenter": {
+        "name": "LanguageToolSegmenter",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.languagetool-asl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.languagetool.LanguageToolSegmenter"
+    },
+    "LanguageDetectorWeb1T": {
+        "name": "LanguageDetectorWeb1T",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.ldweb1t-asl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.ldweb1t.LanguageDetectorWeb1T"
+    },
+    "MalletTopicModelEstimator": {
+        "name": "MalletTopicModelEstimator",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.mallet-asl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.mallet.topicmodel.MalletTopicModelEstimator"
+    },
+    "MalletTopicModelInferencer": {
+        "name": "MalletTopicModelInferencer",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.mallet-asl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.mallet.topicmodel.MalletTopicModelInferencer"
+    },
+    "MaltParser": {
+        "name": "MaltParser",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.maltparser-asl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.maltparser.MaltParser"
+    },
+    "MateLemmatizer": {
+        "name": "MateLemmatizer",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.matetools-gpl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.matetools.MateLemmatizer"
+    },
+    "MateMorphTagger": {
+        "name": "MateMorphTagger",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.matetools-gpl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.matetools.MateMorphTagger"
+    },
+    "MateParser": {
+        "name": "MateParser",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.matetools-gpl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.matetools.MateParser"
+    },
+    "MatePosTagger": {
+        "name": "MatePosTagger",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.matetools-gpl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.matetools.MatePosTagger"
+    },
+    "MateSemanticRoleLabeler": {
+        "name": "MateSemanticRoleLabeler",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.matetools-gpl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.matetools.MateSemanticRoleLabeler"
+    },
+    "MeCabTagger": {
+        "name": "MeCabTagger",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.mecab-asl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.mecab.MeCabTagger"
+    },
+    "MorphaLemmatizer": {
+        "name": "MorphaLemmatizer",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.morpha-asl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.morpha.MorphaLemmatizer"
+    },
+    "MstParser": {
+        "name": "MstParser",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.mstparser-asl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.mstparser.MstParser"
+    },
     "NGramAnnotator": {
         "name": "NGramAnnotator",
         "groupId": "de.tudarmstadt.ukp.dkpro.core",
@@ -61,6 +306,153 @@
         "artifactId": "de.tudarmstadt.ukp.dkpro.core.norvig-asl",
         "version": "1.8.0",
         "class": "de.tudarmstadt.ukp.dkpro.core.norvig.NorvigSpellingCorrector"
+    },
+    "OpenNlpChunker": {
+        "name": "OpenNlpChunker",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.opennlp-asl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.opennlp.OpenNlpChunker"
+    },
+    "OpenNlpNamedEntityRecognizer": {
+        "name": "OpenNlpNamedEntityRecognizer",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.opennlp-asl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.opennlp.OpenNlpNamedEntityRecognizer"
+    },
+    "OpenNlpParser": {
+        "name": "OpenNlpParser",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.opennlp-asl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.opennlp.OpenNlpParser"
+    },
+    "OpenNlpPosTagger": {
+        "name": "OpenNlpPosTagger",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.opennlp-asl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.opennlp.OpenNlpPosTagger"
+    },
+    "OpenNlpSegmenter": {
+        "name": "OpenNlpSegmenter",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.opennlp-asl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.opennlp.OpenNlpSegmenter"
+    },
+    "Stopwatch": {
+        "name": "Stopwatch",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.performance-asl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.performance.Stopwatch"
+    },
+    "PosFilter": {
+        "name": "PosFilter",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.posfilter-asl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.posfilter.PosFilter"
+    },
+    "PosMapper": {
+        "name": "PosMapper",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.posfilter-asl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.posfilter.PosMapper"
+    },
+    "ReadabilityAnnotator": {
+        "name": "ReadabilityAnnotator",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.readability-asl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.readability.ReadabilityAnnotator"
+    },
+    "RfTagger": {
+        "name": "RfTagger",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.rftagger-asl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.rftagger.RfTagger"
+    },
+    "SfstAnnotator": {
+        "name": "SfstAnnotator",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.sfst-gpl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.sfst.SfstAnnotator"
+    },
+    "SnowballStemmer": {
+        "name": "SnowballStemmer",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.snowball-asl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.snowball.SnowballStemmer"
+    },
+    "StanfordCoreferenceResolver": {
+        "name": "StanfordCoreferenceResolver",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.stanfordnlp-gpl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.stanfordnlp.StanfordCoreferenceResolver"
+    },
+    "StanfordDependencyConverter": {
+        "name": "StanfordDependencyConverter",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.stanfordnlp-gpl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.stanfordnlp.StanfordDependencyConverter"
+    },
+    "StanfordLemmatizer": {
+        "name": "StanfordLemmatizer",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.stanfordnlp-gpl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.stanfordnlp.StanfordLemmatizer"
+    },
+    "StanfordNamedEntityRecognizer": {
+        "name": "StanfordNamedEntityRecognizer",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.stanfordnlp-gpl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.stanfordnlp.StanfordNamedEntityRecognizer"
+    },
+    "StanfordParser": {
+        "name": "StanfordParser",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.stanfordnlp-gpl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.stanfordnlp.StanfordParser"
+    },
+    "StanfordPosTagger": {
+        "name": "StanfordPosTagger",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.stanfordnlp-gpl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.stanfordnlp.StanfordPosTagger"
+    },
+    "StanfordPtbTransformer": {
+        "name": "StanfordPtbTransformer",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.stanfordnlp-gpl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.stanfordnlp.StanfordPtbTransformer"
+    },
+    "StanfordSegmenter": {
+        "name": "StanfordSegmenter",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.stanfordnlp-gpl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.stanfordnlp.StanfordSegmenter"
+    },
+    "StopWordRemover": {
+        "name": "StopWordRemover",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.stopwordremover-asl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.stopwordremover.StopWordRemover"
     },
     "DocumentMetaDataStripper": {
         "name": "DocumentMetaDataStripper",
@@ -82,5 +474,208 @@
         "artifactId": "de.tudarmstadt.ukp.dkpro.core.testing-asl",
         "version": "1.8.0",
         "class": "de.tudarmstadt.ukp.dkpro.core.testing.TagsetDescriptionStripper"
+    },
+    "LanguageIdentifier": {
+        "name": "LanguageIdentifier",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.textcat-asl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.textcat.LanguageIdentifier"
+    },
+    "AnnotationByTextFilter": {
+        "name": "AnnotationByTextFilter",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.textnormalizer-asl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.textnormalizer.annotations.AnnotationByTextFilter"
+    },
+    "RegexTokenFilter": {
+        "name": "RegexTokenFilter",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.textnormalizer-asl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.textnormalizer.annotations.RegexTokenFilter"
+    },
+    "TrailingCharacterRemover": {
+        "name": "TrailingCharacterRemover",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.textnormalizer-asl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.textnormalizer.annotations.TrailingCharacterRemover"
+    },
+    "CapitalizationNormalizer": {
+        "name": "CapitalizationNormalizer",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.textnormalizer-asl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.textnormalizer.frequency.CapitalizationNormalizer"
+    },
+    "ExpressiveLengtheningNormalizer": {
+        "name": "ExpressiveLengtheningNormalizer",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.textnormalizer-asl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.textnormalizer.frequency.ExpressiveLengtheningNormalizer"
+    },
+    "SharpSNormalizer": {
+        "name": "SharpSNormalizer",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.textnormalizer-asl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.textnormalizer.frequency.SharpSNormalizer"
+    },
+    "UmlautNormalizer": {
+        "name": "UmlautNormalizer",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.textnormalizer-asl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.textnormalizer.frequency.UmlautNormalizer"
+    },
+    "ReplacementFileNormalizer": {
+        "name": "ReplacementFileNormalizer",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.textnormalizer-asl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.textnormalizer.ReplacementFileNormalizer"
+    },
+    "SpellingNormalizer": {
+        "name": "SpellingNormalizer",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.textnormalizer-asl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.textnormalizer.SpellingNormalizer"
+    },
+    "DictionaryBasedTokenTransformer": {
+        "name": "DictionaryBasedTokenTransformer",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.textnormalizer-asl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.textnormalizer.transformation.DictionaryBasedTokenTransformer"
+    },
+    "FileBasedTokenTransformer": {
+        "name": "FileBasedTokenTransformer",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.textnormalizer-asl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.textnormalizer.transformation.FileBasedTokenTransformer"
+    },
+    "HyphenationRemover": {
+        "name": "HyphenationRemover",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.textnormalizer-asl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.textnormalizer.transformation.HyphenationRemover"
+    },
+    "RegexBasedTokenTransformer": {
+        "name": "RegexBasedTokenTransformer",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.textnormalizer-asl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.textnormalizer.transformation.RegexBasedTokenTransformer"
+    },
+    "TokenCaseTransformer": {
+        "name": "TokenCaseTransformer",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.textnormalizer-asl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.textnormalizer.transformation.TokenCaseTransformer"
+    },
+    "JCasHolder": {
+        "name": "JCasHolder",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.textnormalizer-asl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.textnormalizer.util.JCasHolder"
+    },
+    "AnnotationByLengthFilter": {
+        "name": "AnnotationByLengthFilter",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.tokit-asl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.tokit.AnnotationByLengthFilter"
+    },
+    "BreakIteratorSegmenter": {
+        "name": "BreakIteratorSegmenter",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.tokit-asl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.tokit.BreakIteratorSegmenter"
+    },
+    "CamelCaseTokenSegmenter": {
+        "name": "CamelCaseTokenSegmenter",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.tokit-asl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.tokit.CamelCaseTokenSegmenter"
+    },
+    "GermanSeparatedParticleAnnotator": {
+        "name": "GermanSeparatedParticleAnnotator",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.tokit-asl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.tokit.GermanSeparatedParticleAnnotator"
+    },
+    "LineBasedSentenceSegmenter": {
+        "name": "LineBasedSentenceSegmenter",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.tokit-asl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.tokit.LineBasedSentenceSegmenter"
+    },
+    "ParagraphSplitter": {
+        "name": "ParagraphSplitter",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.tokit-asl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.tokit.ParagraphSplitter"
+    },
+    "PatternBasedTokenSegmenter": {
+        "name": "PatternBasedTokenSegmenter",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.tokit-asl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.tokit.PatternBasedTokenSegmenter"
+    },
+    "RegexTokenizer": {
+        "name": "RegexTokenizer",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.tokit-asl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.tokit.RegexTokenizer"
+    },
+    "TokenMerger": {
+        "name": "TokenMerger",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.tokit-asl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.tokit.TokenMerger"
+    },
+    "TokenTrimmer": {
+        "name": "TokenTrimmer",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.tokit-asl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.tokit.TokenTrimmer"
+    },
+    "WhitespaceTokenizer": {
+        "name": "WhitespaceTokenizer",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.tokit-asl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.tokit.WhitespaceTokenizer"
+    },
+    "TreeTaggerChunker": {
+        "name": "TreeTaggerChunker",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.treetagger-asl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.treetagger.TreeTaggerChunker"
+    },
+    "TreeTaggerPosTagger": {
+        "name": "TreeTaggerPosTagger",
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.treetagger-asl",
+        "version": "1.8.0",
+        "class": "de.tudarmstadt.ukp.dkpro.core.treetagger.TreeTaggerPosTagger"
     }
 }

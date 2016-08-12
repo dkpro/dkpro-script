@@ -1,9 +1,83 @@
 {
+    "AclAnthology": {
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.io.aclanthology-asl",
+        "version": "1.8.0",
+        "readerClass": "de.tudarmstadt.ukp.dkpro.core.io.aclanthology.AclAnthologyReader"
+    },
+    "BinaryCas": {
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.io.bincas-asl",
+        "version": "1.8.0",
+        "readerClass": "de.tudarmstadt.ukp.dkpro.core.io.bincas.BinaryCasReader",
+        "writerClass": "de.tudarmstadt.ukp.dkpro.core.io.bincas.BinaryCasWriter"
+    },
+    "SerializedCas": {
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.io.bincas-asl",
+        "version": "1.8.0",
+        "readerClass": "de.tudarmstadt.ukp.dkpro.core.io.bincas.SerializedCasReader",
+        "writerClass": "de.tudarmstadt.ukp.dkpro.core.io.bincas.SerializedCasWriter"
+    },
     "BlikiWikipedia": {
         "groupId": "de.tudarmstadt.ukp.dkpro.core",
         "artifactId": "de.tudarmstadt.ukp.dkpro.core.io.bliki-asl",
         "version": "1.8.0",
         "readerClass": "de.tudarmstadt.ukp.dkpro.core.io.bliki.BlikiWikipediaReader"
+    },
+    "Bnc": {
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.io.bnc-asl",
+        "version": "1.8.0",
+        "readerClass": "de.tudarmstadt.ukp.dkpro.core.io.bnc.BncReader"
+    },
+    "Brat": {
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.io.brat-asl",
+        "version": "1.8.0",
+        "readerClass": "de.tudarmstadt.ukp.dkpro.core.io.brat.BratReader",
+        "writerClass": "de.tudarmstadt.ukp.dkpro.core.io.brat.BratWriter"
+    },
+    "Combination": {
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.io.combination-asl",
+        "version": "1.8.0",
+        "readerClass": "de.tudarmstadt.ukp.dkpro.core.io.combination.CombinationReader"
+    },
+    "Conll2000": {
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.io.conll-asl",
+        "version": "1.8.0",
+        "readerClass": "de.tudarmstadt.ukp.dkpro.core.io.conll.Conll2000Reader",
+        "writerClass": "de.tudarmstadt.ukp.dkpro.core.io.conll.Conll2000Writer"
+    },
+    "Conll2002": {
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.io.conll-asl",
+        "version": "1.8.0",
+        "readerClass": "de.tudarmstadt.ukp.dkpro.core.io.conll.Conll2002Reader",
+        "writerClass": "de.tudarmstadt.ukp.dkpro.core.io.conll.Conll2002Writer"
+    },
+    "Conll2006": {
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.io.conll-asl",
+        "version": "1.8.0",
+        "readerClass": "de.tudarmstadt.ukp.dkpro.core.io.conll.Conll2006Reader",
+        "writerClass": "de.tudarmstadt.ukp.dkpro.core.io.conll.Conll2006Writer"
+    },
+    "Conll2009": {
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.io.conll-asl",
+        "version": "1.8.0",
+        "readerClass": "de.tudarmstadt.ukp.dkpro.core.io.conll.Conll2009Reader",
+        "writerClass": "de.tudarmstadt.ukp.dkpro.core.io.conll.Conll2009Writer"
+    },
+    "Conll2012": {
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.io.conll-asl",
+        "version": "1.8.0",
+        "readerClass": "de.tudarmstadt.ukp.dkpro.core.io.conll.Conll2012Reader",
+        "writerClass": "de.tudarmstadt.ukp.dkpro.core.io.conll.Conll2012Writer"
     },
     "Html": {
         "groupId": "de.tudarmstadt.ukp.dkpro.core",
@@ -11,11 +85,24 @@
         "version": "1.8.0",
         "readerClass": "de.tudarmstadt.ukp.dkpro.core.io.html.HtmlReader"
     },
+    "ImsCwb": {
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.io.imscwb-asl",
+        "version": "1.8.0",
+        "readerClass": "de.tudarmstadt.ukp.dkpro.core.io.imscwb.ImsCwbReader",
+        "writerClass": "de.tudarmstadt.ukp.dkpro.core.io.imscwb.ImsCwbWriter"
+    },
     "Jdbc": {
         "groupId": "de.tudarmstadt.ukp.dkpro.core",
         "artifactId": "de.tudarmstadt.ukp.dkpro.core.io.jdbc-asl",
         "version": "1.8.0",
         "readerClass": "de.tudarmstadt.ukp.dkpro.core.io.jdbc.JdbcReader"
+    },
+    "Json": {
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.io.json-asl",
+        "version": "1.8.0",
+        "writerClass": "de.tudarmstadt.ukp.dkpro.core.io.json.JsonWriter"
     },
     "WikipediaArticleInfo": {
         "groupId": "de.tudarmstadt.ukp.dkpro.core",
@@ -70,6 +157,156 @@
         "artifactId": "de.tudarmstadt.ukp.dkpro.core.io.jwpl-asl",
         "version": "1.8.0",
         "readerClass": "de.tudarmstadt.ukp.dkpro.core.io.jwpl.WikipediaTemplateFilteredArticleReader"
+    },
+    "NegraExport": {
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.io.negra-asl",
+        "version": "1.8.0",
+        "readerClass": "de.tudarmstadt.ukp.dkpro.core.io.negra.NegraExportReader"
+    },
+    "Pdf": {
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.io.pdf-asl",
+        "version": "1.8.0",
+        "readerClass": "de.tudarmstadt.ukp.dkpro.core.io.pdf.PdfReader"
+    },
+    "PennTreebankChunked": {
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.io.penntree-asl",
+        "version": "1.8.0",
+        "readerClass": "de.tudarmstadt.ukp.dkpro.core.io.penntree.PennTreebankChunkedReader"
+    },
+    "PennTreebankCombined": {
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.io.penntree-asl",
+        "version": "1.8.0",
+        "readerClass": "de.tudarmstadt.ukp.dkpro.core.io.penntree.PennTreebankCombinedReader",
+        "writerClass": "de.tudarmstadt.ukp.dkpro.core.io.penntree.PennTreebankCombinedWriter"
+    },
+    "Reuters21578Sgml": {
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.io.reuters-asl",
+        "version": "1.8.0",
+        "readerClass": "de.tudarmstadt.ukp.dkpro.core.io.reuters.Reuters21578SgmlReader"
+    },
+    "Reuters21578Txt": {
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.io.reuters-asl",
+        "version": "1.8.0",
+        "readerClass": "de.tudarmstadt.ukp.dkpro.core.io.reuters.Reuters21578TxtReader"
+    },
+    "RTF": {
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.io.rtf-asl",
+        "version": "1.8.0",
+        "readerClass": "de.tudarmstadt.ukp.dkpro.core.io.rtf.RTFReader"
+    },
+    "Solr": {
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.io.solr-asl",
+        "version": "1.8.0",
+        "writerClass": "de.tudarmstadt.ukp.dkpro.core.io.solr.SolrWriter"
+    },
+    "Tcf": {
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.io.tcf-asl",
+        "version": "1.8.0",
+        "readerClass": "de.tudarmstadt.ukp.dkpro.core.io.tcf.TcfReader",
+        "writerClass": "de.tudarmstadt.ukp.dkpro.core.io.tcf.TcfWriter"
+    },
+    "Tei": {
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.io.tei-asl",
+        "version": "1.8.0",
+        "readerClass": "de.tudarmstadt.ukp.dkpro.core.io.tei.TeiReader",
+        "writerClass": "de.tudarmstadt.ukp.dkpro.core.io.tei.TeiWriter"
+    },
+    "String": {
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.io.text-asl",
+        "version": "1.8.0",
+        "readerClass": "de.tudarmstadt.ukp.dkpro.core.io.text.StringReader"
+    },
+    "Text": {
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.io.text-asl",
+        "version": "1.8.0",
+        "readerClass": "de.tudarmstadt.ukp.dkpro.core.io.text.TextReader",
+        "writerClass": "de.tudarmstadt.ukp.dkpro.core.io.text.TextWriter"
+    },
+    "TokenizedText": {
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.io.text-asl",
+        "version": "1.8.0",
+        "writerClass": "de.tudarmstadt.ukp.dkpro.core.io.text.TokenizedTextWriter"
+    },
+    "TGrep": {
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.io.tgrep-gpl",
+        "version": "1.8.0",
+        "writerClass": "de.tudarmstadt.ukp.dkpro.core.io.tgrep.TGrepWriter"
+    },
+    "TigerXml": {
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.io.tiger-asl",
+        "version": "1.8.0",
+        "readerClass": "de.tudarmstadt.ukp.dkpro.core.io.tiger.TigerXmlReader",
+        "writerClass": "de.tudarmstadt.ukp.dkpro.core.io.tiger.TigerXmlWriter"
+    },
+    "Tuepp": {
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.io.tuepp-asl",
+        "version": "1.8.0",
+        "readerClass": "de.tudarmstadt.ukp.dkpro.core.io.tuepp.TueppReader"
+    },
+    "Web1T": {
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.io.web1t-asl",
+        "version": "1.8.0",
+        "writerClass": "de.tudarmstadt.ukp.dkpro.core.io.web1t.Web1TWriter"
+    },
+    "Xmi": {
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.io.xmi-asl",
+        "version": "1.8.0",
+        "readerClass": "de.tudarmstadt.ukp.dkpro.core.io.xmi.XmiReader",
+        "writerClass": "de.tudarmstadt.ukp.dkpro.core.io.xmi.XmiWriter"
+    },
+    "InlineXml": {
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.io.xml-asl",
+        "version": "1.8.0",
+        "writerClass": "de.tudarmstadt.ukp.dkpro.core.io.xml.InlineXmlWriter"
+    },
+    "Xml": {
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.io.xml-asl",
+        "version": "1.8.0",
+        "readerClass": "de.tudarmstadt.ukp.dkpro.core.io.xml.XmlReader"
+    },
+    "XmlText": {
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.io.xml-asl",
+        "version": "1.8.0",
+        "readerClass": "de.tudarmstadt.ukp.dkpro.core.io.xml.XmlTextReader"
+    },
+    "XmlXPath": {
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.io.xml-asl",
+        "version": "1.8.0",
+        "readerClass": "de.tudarmstadt.ukp.dkpro.core.io.xml.XmlXPathReader"
+    },
+    "MalletTopicProportions": {
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.mallet-asl",
+        "version": "1.8.0",
+        "writerClass": "de.tudarmstadt.ukp.dkpro.core.mallet.topicmodel.io.MalletTopicProportionsWriter"
+    },
+    "MalletTopicsProportionsSorted": {
+        "groupId": "de.tudarmstadt.ukp.dkpro.core",
+        "artifactId": "de.tudarmstadt.ukp.dkpro.core.mallet-asl",
+        "version": "1.8.0",
+        "writerClass": "de.tudarmstadt.ukp.dkpro.core.mallet.topicmodel.io.MalletTopicsProportionsSortedWriter"
     },
     "CasDump": {
         "groupId": "de.tudarmstadt.ukp.dkpro.core",
