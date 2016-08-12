@@ -21,13 +21,54 @@
   <parent>
     <groupId>org.dkpro</groupId>
     <artifactId>dkpro-parent-pom</artifactId>
-    <version>15-SNAPSHOT</version>
+    <version>15</version>
   </parent>
   <groupId>org.dkpro.script</groupId>
   <artifactId>dkpro-script</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>DKPro Script</name>
   <packaging>pom</packaging>
+  <name>DKPro Script</name>
+  <url>https://dkpro.github.io/dkpro-script/</url>
+  <description>Groovy-based DSL for DKPro Core pipelines.</description>
+  <inceptionYear>2015</inceptionYear>
+  <organization>
+    <url>https://www.ukp.tu-darmstadt.de/</url>
+    <name>Ubiquitous Knowledge Processing (UKP) Lab, Technische Universität Darmstadt</name>
+  </organization>
+  <issueManagement>
+    <url>https://github.com/dkpro/dkpro-script/issues</url>
+    <system>GitHub Issues</system>
+  </issueManagement>
+  <licenses>
+    <license>
+      <name>Apache License Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <mailingLists>
+    <!-- DKPro Script currently uses the DKPro Core lists -->
+    <mailingList>
+      <name>DKPro Core user mailing list</name>
+      <archive>https://groups.google.com/forum/#!forum/dkpro-core-user</archive>
+      <post>dkpro-core-user@googlegroups.com</post>
+      <subscribe>dkpro-core-user+subscribe@googlegroups.com</subscribe>
+      <unsubscribe>dkpro-core-user+unsubscribe@googlegroups.com</unsubscribe>
+    </mailingList>
+    <mailingList>
+      <name>DKPro Core developer mailing list</name>
+      <archive>https://groups.google.com/forum/#!forum/dkpro-core-developers</archive>
+      <post>dkpro-core-developers@googlegroups.com</post>
+      <subscribe>dkpro-core-developers+subscribe@googlegroups.com</subscribe>
+      <unsubscribe>dkpro-core-developers+unsubscribe@googlegroups.com</unsubscribe>
+    </mailingList>
+  </mailingLists>
+  <scm>
+    <connection>scm:git:https://github.com/dkpro/dkpro-script.git</connection>
+    <developerConnection>scm:git:https://github.com/dkpro/dkpro-script.git</developerConnection>
+    <url>https://github.com/dkpro/dkpro-script</url>
+    <tag>HEAD</tag>
+  </scm>
   <properties>
     <groovy.version>2.4.7</groovy.version>
   </properties>
