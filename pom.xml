@@ -15,7 +15,8 @@
   See the License for the specific language governing permissions and
   limitations under the License.
 -->
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>org.dkpro</groupId>
@@ -68,10 +69,9 @@
     </mailingList>
   </mailingLists>
   <scm>
-    <connection>scm:git:https://github.com/dkpro/dkpro-script.git</connection>
-    <developerConnection>scm:git:https://github.com/dkpro/dkpro-script.git</developerConnection>
+    <connection>scm:git:git://github.com/dkpro/dkpro-script</connection>
+    <developerConnection>scm:git:git@github.com:dkpro/dkpro-script.git</developerConnection>
     <url>https://github.com/dkpro/dkpro-script</url>
-    <tag>HEAD</tag>
   </scm>
   <properties>
     <groovy.version>2.4.7</groovy.version>
@@ -95,6 +95,16 @@
       <dependency>
         <groupId>org.codehaus.groovy</groupId>
         <artifactId>groovy-templates</artifactId>
+        <version>${groovy.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.codehaus.groovy</groupId>
+        <artifactId>groovy-groovydoc</artifactId>
+        <version>${groovy.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.codehaus.groovy</groupId>
+        <artifactId>groovy-docgenerator</artifactId>
         <version>${groovy.version}</version>
       </dependency>
       <dependency>
@@ -139,6 +149,7 @@
             <version>1.5</version>
             <executions>
               <execution>
+                <id>build</id>
                 <goals>
                   <goal>addSources</goal>
                   <goal>addTestSources</goal>
@@ -146,10 +157,22 @@
                   <goal>compile</goal>
                   <goal>testGenerateStubs</goal>
                   <goal>testCompile</goal>
-                  <goal>groovydoc</goal>
-                  <goal>testGroovydoc</goal>
                   <goal>removeStubs</goal>
                   <goal>removeTestStubs</goal>
+                </goals>
+              </execution>
+            </executions>
+          </plugin>
+          <plugin>
+            <groupId>com.bluetrainsoftware.maven</groupId>
+            <artifactId>groovydoc-maven-plugin</artifactId>
+            <version>1.3</version>
+            <executions>
+              <execution>
+                <id>attach-docs</id>
+                <phase>package</phase>
+                <goals>
+                  <goal>attach-docs</goal>
                 </goals>
               </execution>
             </executions>
