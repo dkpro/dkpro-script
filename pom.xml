@@ -24,7 +24,7 @@
   </parent>
   <groupId>org.dkpro.script</groupId>
   <artifactId>dkpro-script</artifactId>
-  <version>0.1.0</version>
+  <version>0.2.0-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>DKPro Script</name>
   <url>https://dkpro.github.io/dkpro-script/</url>
@@ -71,7 +71,7 @@
     <connection>scm:git:git://github.com/dkpro/dkpro-script</connection>
     <developerConnection>scm:git:git@github.com:dkpro/dkpro-script.git</developerConnection>
     <url>https://github.com/dkpro/dkpro-script</url>
-    <tag>dkpro-script-0.1.0</tag>
+    <tag>HEAD</tag>
   </scm>
   <properties>
     <groovy.version>2.4.7</groovy.version>
