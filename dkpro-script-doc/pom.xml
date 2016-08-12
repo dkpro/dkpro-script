@@ -26,6 +26,9 @@
   <packaging>pom</packaging>
   <artifactId>dkpro-script-doc</artifactId>
   <name>DKPro Script - Documentation</name>
+  <properties>
+    <maven.deploy.skip>true</maven.deploy.skip>
+  </properties>
   <build>
     <plugins>
       <plugin>
