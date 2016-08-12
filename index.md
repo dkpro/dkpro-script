@@ -14,20 +14,15 @@ header-1:
     text: DKPro Script provides a DSL to build DKPro Core pipelines with a clean syntax and minimal effort.
 ---
 
-This example is using an unrelease version of DKPro Core. Once DKPro Core 1.8.0 is released, it will become even shorter.
+{% assign stable = (site.data.releases | where:"status", "stable" | first) %}
+{% assign unstable = (site.data.releases | where:"status", "unstable" | first) %}
 
 {% highlight groovy %}
 #!/usr/bin/env groovy
-@GrabResolver(name='apache-snapshots', 
-    root='http://repository.apache.org/snapshots')
-@GrabResolver(name='ukp-oss-snapshots',
-    root='http://zoidberg.ukp.informatik.tu-darmstadt.de/artifactory/public-snapshots')
-@Grab('org.dkpro.script:dkpro-script-groovy:0.0.1-SNAPSHOT')
+@Grab('org.dkpro.script:dkpro-script-groovy:{{ stable.version }}')
 import groovy.transform.BaseScript
 import org.dkpro.script.groovy.DKProCoreScript;
 @BaseScript DKProCoreScript baseScript
-
-version '1.9.0-SNAPSHOT'
 
 read 'String' language 'en' params([
     documentText: 'This is a test.'])
@@ -36,9 +31,6 @@ apply 'OpenNlpPosTagger'
 write 'Conll2006'
 
 {% endhighlight %}
-
-{% assign stable = (site.data.releases | where:"status", "stable" | first) %}
-{% assign unstable = (site.data.releases | where:"status", "unstable" | first) %}
 
 {% unless unstable.user_guide_url == null %} For more information, please refer to the [User Guide]({{ unstable.user_guide_url }}). DKPro Script requires at least Groovy 2.4.5.{% endunless %}
 

@@ -8,7 +8,18 @@
 #
 # Possible status: "stable", "unstable"
 
-- version: 0.0.1-SNAPSHOT
+- version: 0.2.0-SNAPSHOT
   status: unstable
-  user_guide_url: https://zoidberg.ukp.informatik.tu-darmstadt.de/jenkins/job/DKPro%20Script%20(GitHub)/org.dkpro.script$dkpro-script-doc/doclinks/1/
-#  developer_guide_url: https://zoidberg.ukp.informatik.tu-darmstadt.de/jenkins/job/DKPro%20Core%20Documentation%20(GitHub)/de.tudarmstadt.ukp.dkpro.core$de.tudarmstadt.ukp.dkpro.core.doc-asl/doclinks/2/
+  doclinks:
+  - title: "User Guide and Reference"
+    url: "https://zoidberg.ukp.informatik.tu-darmstadt.de/jenkins/job/DKPro%20Script%20(GitHub)/org.dkpro.script$dkpro-script-doc/doclinks/1/"
+
+- version: 0.1.0
+  status: stable
+  date: 2016-08-12
+  groupId: org.dkpro.script
+  artifactId: dkpro-script-groovy
+  doclinks:
+  - title: "User Guide and Reference"
+    url: "docs/user-guide.html"
+  
