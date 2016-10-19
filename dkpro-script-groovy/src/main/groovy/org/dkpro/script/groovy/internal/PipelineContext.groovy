@@ -25,7 +25,7 @@ import static org.apache.uima.fit.factory.CollectionReaderFactory.*
 
 class PipelineContext
 {
-	def pipeline = []
+	List<Component> pipeline = []
 
 	def engines
 
@@ -37,11 +37,11 @@ class PipelineContext
 
 	ClassLoader classLoader
 
-	def version(ver) {
+	public void version(ver) {
 		VERSION = ver
 	}
 
-	def boot() {
+	public void boot() {
 		java.util.logging.LogManager.logManager.reset() // Disable logging
 		/*
 		 java.util.logging.LogManager.logManager.getLogger("").level = java.util.logging.Level.FINEST;
@@ -61,7 +61,7 @@ class PipelineContext
 
 	// Thinks to initialize while the script is running, e.g. if we want to change the versio in
 	// the script, then we cannot configure the resolved before
-	def lazyBoot() {
+	public void lazyBoot() {
 		if (!lazyBootComplete) {
             // Currently needed because DKPro Core 1.9.0-SNAPSHOT depends on UIMA 2.9.0-SNAPSHOT
             // and uimaFIT 2.3.0-SNAPSHOT
@@ -79,7 +79,7 @@ class PipelineContext
 		}
 	}
 
-	def load(component) {
+	public Component load(component) {
 		lazyBoot()
 
 		def cl = findClassLoader()
@@ -114,7 +114,7 @@ class PipelineContext
 		return comp
 	}
 
-	def findClassLoader() {
+	public ClassLoader findClassLoader() {
 		def cl
 		if (classLoader) {
 			cl = classLoader

@@ -57,7 +57,7 @@ class PipelineHelper
         }
     }
 
-    def apply(@DelegatesTo(WriterHelper) engine) {
+    public Component apply(@DelegatesTo(WriterHelper) engine) {
         if (engine instanceof String || engine instanceof GString) {
             assert context.engines[engine];
 
