@@ -197,12 +197,22 @@
               </execution>
             </executions>
           </plugin>
+          <!-- We already build and attach a source JAR using the groovydoc-maven-plugin -->
+          <!--  
           <plugin>
-            <!-- We already build and attach a source JAR using the groovydoc-maven-plugin -->
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-source-plugin</artifactId>
             <configuration>
               <skipSource>true</skipSource>
+            </configuration>
+          </plugin>
+          -->
+          <!-- We already build and attach a javadoc JAR using the groovydoc-maven-plugin -->
+          <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-javadoc-plugin</artifactId>
+            <configuration>
+              <skip>true</skip>
             </configuration>
           </plugin>
         </plugins>
