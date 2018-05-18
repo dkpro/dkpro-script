@@ -5,7 +5,7 @@
 # this work, you have to use › layout: frontpage
 #
 layout: frontpage
-title: "DKPro Script"
+title: "Welcome"
 #header:
 #	title: DKPro Core
 #   image_fullwidth: "header_unsplash_12.jpg"
@@ -14,8 +14,8 @@ header-1:
     text: DKPro Script provides a DSL to build DKPro Core pipelines with a clean syntax and minimal effort.
 ---
 
-{% assign stable = (site.data.releases | where:"status", "stable" | first) %}
-{% assign unstable = (site.data.releases | where:"status", "unstable" | first) %}
+{% assign stable = site.data.releases | where: "status", "stable" | first %}
+{% assign unstable = site.data.releases | where: "status", "unstable" | first %}
 
 {% highlight groovy %}
 #!/usr/bin/env groovy

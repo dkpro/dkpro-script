@@ -6,7 +6,7 @@ permalink: "/documentation/"
 
 ## User Documentation
 
-{% assign stable = (site.data.releases | where:"status", "stable" | first) %}
+{% assign stable = site.data.releases | where: "status", "stable" | first %}
 ### DKPro Script {{ stable.version }}
 _latest release_
 
